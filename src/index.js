@@ -39,6 +39,6 @@ app.post("/",(req,res)=>{
         }
     })
 })
-app.listen(5000,()=>{
-    console.log("lisenteing....covid");
+app.listen(port,()=>{
+    console.log(`lisitening azan app..!${port}`);
 })
